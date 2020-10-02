@@ -17,17 +17,17 @@ public class AddressBook {
         buddyInfos.remove(buddyInfo);
     }
 
+    public int getBuddyInfoSize(){return buddyInfos.size();}
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom","Carleton","613");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
 
-        System.out.println("Added buddy inside the AddressBook");
+        System.out.println("add buddy to address book");
 
         addressBook.removeBuddy(buddy);
 
-        System.out.println("Removed buddy inside the addressbook");
-        
-        System.out.println("Add one print statement that editing from github.");
+        System.out.println("remove buddy from address book");
     }
 }
