@@ -17,17 +17,10 @@ public class AddressBook {
         buddyInfos.remove(buddyInfo);
     }
 
-    public int getSize(){return buddyInfos.size();}
-
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom","Carleton","613");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
-
-        System.out.println("add buddy to address book");
-
         addressBook.removeBuddy(buddy);
-
-        System.out.println("remove buddy from address book");
     }
 }
