@@ -28,6 +28,6 @@ public class AddressBook {
 
         System.out.println("Removed buddy inside the addressbook");
         
-        System.out.println("Add one print statement that editing from github.")
+        System.out.println("Add one print statement that editing from github.");
     }
 }
